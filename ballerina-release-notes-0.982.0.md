@@ -288,11 +288,13 @@ json result <- jsonChannel, key;
 
 ## IDE Plugins
 
+Notice: Ballerina VSCode plugin version 0.982.0 require to have VSCode version 0.26.1 or above. If you have an older version of VSCode you can still continue to use 0.981.1 plugin and point to 0.982.0 ballerina home, completion will continue to work but the diagram rendering will not.   
+
 - Diagram editing support in VSCode.
 - Language server integration support in IDEA plugin: This results in providing all language intelligence support through the language server.
-- Variable definition auto generation code action.
-- Attached function’s implementation snippe
-- Object constructor auto generation code action.
+- Variable definition auto generation code action
+- Attached function’s implementation snippet
+- Object constructor auto generation code action
 
 ## Extensions
 
